@@ -29,7 +29,6 @@
         <option value="$PROJECT_DIR$/01-spring-boot-overview/06-properties-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/01-spring-boot-demo/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-crud-hello-world/pom.xml" />
-        <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/02-spring-boot-rest-crud-students-list-base/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/07-spring-boot-rest-crud-employee-list-employees/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/03-spring-boot-rest-crud-students-list-refactored/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/05-spring-boot-rest-crud-students-exception-handling/pom.xml" />
