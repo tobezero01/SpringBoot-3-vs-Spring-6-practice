@@ -59,9 +59,7 @@
         <module name="aopdemo (7)" />
         <module name="cruddemo (27) (com.luv2code)" />
         <module name="thymeleafdemo (8)" />
-        <module name="mycoolapp" />
         <module name="thymeleafdemo (18)" />
-        <module name="mycoolapp (1)" />
         <module name="demosecurity (9)" />
         <module name="aopdemo (18)" />
         <module name="aopdemo (5)" />
@@ -101,7 +99,6 @@
         <module name="validationdemo (4)" />
         <module name="cruddemo (10)" />
         <module name="thymeleafdemo (11)" />
-        <module name="mycoolapp (4)" />
         <module name="aopdemo (2)" />
         <module name="aopdemo (15)" />
         <module name="demo" />
@@ -113,7 +110,6 @@
         <module name="validationdemo (3)" />
         <module name="thymeleafdemo (12)" />
         <module name="demosecurity (3)" />
-        <module name="mycoolapp (5)" />
         <module name="demosecurity (5)" />
         <module name="aopdemo (1)" />
         <module name="cruddemo (17) (com.luv2code)" />

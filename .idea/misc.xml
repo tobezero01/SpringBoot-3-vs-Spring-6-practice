@@ -26,12 +26,8 @@
         <option value="$PROJECT_DIR$/10-spring-boot-aop/06-spring-boot-aop-pointcut-expressions-match-method-parameter-types/pom.xml" />
         <option value="$PROJECT_DIR$/10-spring-boot-aop/03-spring-boot-aop-pointcut-expressions-match-only-accountdao-add-account/pom.xml" />
         <option value="$PROJECT_DIR$/10-spring-boot-aop/07-spring-boot-aop-pointcut-expressions-match-method-with-account-and-more-params/pom.xml" />
-        <option value="$PROJECT_DIR$/01-spring-boot-overview/03-actuator-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/01-spring-boot-overview/02-dev-tools-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/06-properties-demo/pom.xml" />
         <option value="$PROJECT_DIR$/01-spring-boot-overview/01-spring-boot-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/01-spring-boot-overview/05-command-line-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/01-spring-boot-overview/04-actuator-security-demo/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-crud-hello-world/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/02-spring-boot-rest-crud-students-list-base/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/07-spring-boot-rest-crud-employee-list-employees/pom.xml" />
