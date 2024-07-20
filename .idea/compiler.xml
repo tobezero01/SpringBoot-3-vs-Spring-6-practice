@@ -58,6 +58,7 @@
         <module name="demosecurity (11)" />
         <module name="aopdemo (7)" />
         <module name="cruddemo (27) (com.luv2code)" />
+        <module name="demo (1) (com.ducnhu)" />
         <module name="thymeleafdemo (8)" />
         <module name="thymeleafdemo (18)" />
         <module name="demosecurity (9)" />
@@ -203,6 +204,7 @@
       <module name="cruddemo (9) (com.luv2code)" target="17" />
       <module name="demo" target="17" />
       <module name="demo (1)" target="17" />
+      <module name="demo (1) (com.ducnhu)" target="19" />
       <module name="demo (2)" target="17" />
       <module name="demo (3)" target="17" />
       <module name="demo (4)" target="17" />
@@ -339,6 +341,7 @@
       <module name="cruddemo (9) (com.luv2code)" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1)" options="-parameters" />
+      <module name="demo (1) (com.ducnhu)" options="-parameters" />
       <module name="demo (2)" options="-parameters" />
       <module name="demo (3)" options="-parameters" />
       <module name="demo (4)" options="-parameters" />
