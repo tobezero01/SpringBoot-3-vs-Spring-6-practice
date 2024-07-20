@@ -49,9 +49,9 @@
         <module name="cruddemo (12)" />
         <module name="cruddemo (19) (com.luv2code)" />
         <module name="aopdemo (11)" />
-        <module name="demo (2)" />
         <module name="springcoredemo (4)" />
         <module name="cruddemo (30) (com.luv2code)" />
+        <module name="demo (2)" />
         <module name="cruddemo (31) (com.luv2code)" />
         <module name="cruddemo (11)" />
         <module name="cruddemo (8)" />
@@ -204,9 +204,9 @@
       <module name="cruddemo (9)" target="17" />
       <module name="cruddemo (9) (com.luv2code)" target="17" />
       <module name="demo" target="17" />
-      <module name="demo (1)" target="17" />
+      <module name="demo (1)" target="19" />
       <module name="demo (1) (com.ducnhu)" target="19" />
-      <module name="demo (2)" target="17" />
+      <module name="demo (2)" target="19" />
       <module name="demo (3)" target="17" />
       <module name="demo (4)" target="17" />
       <module name="demo (5)" target="17" />
