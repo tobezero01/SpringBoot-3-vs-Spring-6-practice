@@ -69,6 +69,7 @@
         <module name="springcoredemo (5)" />
         <module name="cruddemo (9)" />
         <module name="thymeleafdemo (1)" />
+        <module name="demo (1)" />
         <module name="demosecurity (10)" />
         <module name="validationdemo (6)" />
         <module name="thymeleafdemo (9)" />

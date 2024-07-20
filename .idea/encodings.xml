@@ -25,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/03-spring-boot-hibernate-jpa-crud/07-cruddemo-student-query-delete-all-students/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-spring-boot-hibernate-jpa-crud/08-cruddemo-create-db-tables-automatically/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-crud-hello-world/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-jpa/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/02-spring-boot-rest-crud-students-list-base/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/03-spring-boot-rest-crud-students-list-refactored/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-spring-boot-rest-crud/04-spring-boot-rest-crud-students-path-variable-get-single-student/src/main/java" charset="UTF-8" />

@@ -124,6 +124,7 @@
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/05-jpa-one-to-one-bi-delete-instructor-detail-and-instructor/pom.xml" />
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/10-jpa-one-to-many-lazy-find-instructor-with-courses-join-fetch/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-jpa/pom.xml" />
       </list>
     </option>
   </component>
