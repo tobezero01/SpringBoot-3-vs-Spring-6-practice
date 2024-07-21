@@ -17,13 +17,33 @@ import javax.sql.DataSource;
 @Configuration
 public class DemoSecurityConfig {
 
-
-    // add sp for jdbc
+    // custom table -- new members anf roles
 
     @Bean
     public UserDetailsManager userDetailsManager(DataSource dataSource) {
-        return new JdbcUserDetailsManager(dataSource);
+        JdbcUserDetailsManager jdbcUserDetailsManager = new JdbcUserDetailsManager(dataSource);
+
+        //define query to restrict a user by username
+        jdbcUserDetailsManager.setUsersByUsernameQuery(
+                "select user_id , pw , active from members where user_id=?"
+        );
+
+        //define query to restrict the authentication/roles by username
+
+        jdbcUserDetailsManager.setAuthoritiesByUsernameQuery(
+                "select user_id , role from roles where user_id=?"
+        );
+
+        return jdbcUserDetailsManager;
     }
+
+
+    // add sp for jdbc
+
+//    @Bean
+//    public UserDetailsManager userDetailsManager(DataSource dataSource) {
+//        return new JdbcUserDetailsManager(dataSource);
+//    }
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws  Exception {
