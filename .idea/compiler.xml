@@ -104,9 +104,9 @@
         <module name="aopdemo (15)" />
         <module name="demo" />
         <module name="cruddemo (16)" />
-        <module name="cruddemo" />
         <module name="thymeleafdemo (4)" />
         <module name="springcoredemo (8)" />
+        <module name="cruddemo" />
         <module name="cruddemo (4)" />
         <module name="validationdemo (3)" />
         <module name="thymeleafdemo (12)" />

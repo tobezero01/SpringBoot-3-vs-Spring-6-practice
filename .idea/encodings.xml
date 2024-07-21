@@ -52,6 +52,8 @@
     <file url="file://$PROJECT_DIR$/05-spring-boot-rest-security/04-spring-boot-rest-security-jdbc-plain-text/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-spring-boot-rest-security/05-spring-boot-rest-security-jdbc-bcrypt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-spring-boot-rest-security/06-spring-boot-rest-security-jdbc-bcrypt-custom-table-names/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-spring-boot-rest-security/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-spring-boot-rest-security/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-spring-boot-spring-mvc/01-thymeleafdemo-helloworld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-spring-boot-spring-mvc/02-thymeleafdemo-helloworld-css/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-spring-boot-spring-mvc/03-reading-html-form-data/src/main/java" charset="UTF-8" />
