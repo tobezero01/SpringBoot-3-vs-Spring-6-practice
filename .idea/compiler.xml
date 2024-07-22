@@ -68,7 +68,6 @@
         <module name="aopdemo (10)" />
         <module name="springcoredemo (5)" />
         <module name="cruddemo (9)" />
-        <module name="thymeleafdemo (1)" />
         <module name="demo (1)" />
         <module name="demosecurity (10)" />
         <module name="validationdemo (6)" />
@@ -80,7 +79,6 @@
         <module name="aopdemo (21)" />
         <module name="cruddemo (18)" />
         <module name="cruddemo (6)" />
-        <module name="thymeleafdemo (6)" />
         <module name="validationdemo (5)" />
         <module name="springcoredemo (2)" />
         <module name="cruddemo (9) (com.luv2code)" />
@@ -104,7 +102,6 @@
         <module name="aopdemo (15)" />
         <module name="demo" />
         <module name="cruddemo (16)" />
-        <module name="thymeleafdemo (4)" />
         <module name="springcoredemo (8)" />
         <module name="cruddemo" />
         <module name="cruddemo (4)" />

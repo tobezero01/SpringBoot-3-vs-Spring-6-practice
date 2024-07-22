@@ -43,12 +43,9 @@
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/11-spring-boot-rest-crud-employee-rest-controller-get-single-employee/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/16-spring-boot-rest-crud-employee-with-spring-data-rest-configs-and-sorting/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/13-spring-boot-rest-crud-employee-rest-controller-update-employee-and-delete-employee/pom.xml" />
-        <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/03-reading-html-form-data/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/05-binding-request-params/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/01-thymeleafdemo-helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/04-adding-data-to-the-model/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/06-getmapping-and-postmapping/pom.xml" />
-        <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/02-thymeleafdemo-helloworld-css/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/07-form-data-binding-textfields/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/16-validationdemo-number-ranges/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/14-validationdemo-required-fields/pom.xml" />
