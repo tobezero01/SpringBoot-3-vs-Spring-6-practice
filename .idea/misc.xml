@@ -127,6 +127,7 @@
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/01-spring-boot-rest-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/04-spring-boot-rest-crud/03-spring-boot-spring-data-rest/pom.xml" />
         <option value="$PROJECT_DIR$/05-spring-boot-rest-security/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt/pom.xml" />
+        <option value="$PROJECT_DIR$/05-spring-boot-rest-security/02-spring-boot-rest-security-jpa-hibernate-bcrypt/pom.xml" />
       </list>
     </option>
   </component>

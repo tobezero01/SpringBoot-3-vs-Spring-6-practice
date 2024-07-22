@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/04-spring-boot-rest-crud/03-spring-boot-spring-data-rest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04-spring-boot-rest-crud/crudRestDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04-spring-boot-rest-crud/crudRestDemo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05-spring-boot-rest-security/02-spring-boot-rest-security-jpa-hibernate-bcrypt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-spring-boot-rest-security/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
