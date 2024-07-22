@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 
+
+
 <head>
     <title>Thymeleaf Demo</title>
 
@@ -13,9 +15,7 @@
 
     <h1 th:text="DUCNHUAD"/>
 
-    <br><br>
-
-Student name : <span th:text="${param.studentName}"/>
+    <b class="funny" th:text="'Time on the server is ' + ${theDate}" />
 
 </body>
 
