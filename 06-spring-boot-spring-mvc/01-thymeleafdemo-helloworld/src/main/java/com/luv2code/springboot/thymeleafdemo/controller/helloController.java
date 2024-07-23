@@ -3,20 +3,22 @@ package com.luv2code.springboot.thymeleafdemo.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class helloController {
 
-    @RequestMapping("/showForm")
+    @GetMapping("/showForm")
     public String showForm() {
         return "helloWorld-form"; // return view
     }
 
     // need a method process form
 
-    @RequestMapping("/processForm")
+    @RequestMapping("/processForm" )
     public String processForm() {
         return "helloWorld"; // return view
     }
@@ -42,14 +44,14 @@ public class helloController {
         return "helloWorld";
     }
 
-    @RequestMapping("/processFormVersionThree")
+    @GetMapping("/processFormVersionThree")
     public String processFormVersionThree(@RequestParam("studentName") String name, Model model) {
 
         //convert the data to all caps
         name = name.toUpperCase();
 
         // create message
-        String res = "Hello My friend" + name;
+        String res = "Hello My friend " + name;
 
         model.addAttribute("message" , res);
 
