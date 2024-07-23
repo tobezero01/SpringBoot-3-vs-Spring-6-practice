@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/04-spring-boot-rest-crud/crudRestDemo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-spring-boot-rest-security/02-spring-boot-rest-security-jpa-hibernate-bcrypt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05-spring-boot-rest-security/bonus-code-spring-boot-rest-security-jpa-hibernate-bcrypt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-spring-boot-spring-mvc/validationDemo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

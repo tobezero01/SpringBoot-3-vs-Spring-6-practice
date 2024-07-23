@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h3> Student Resgistration form </h3>
+    <h3> Student Resgistation form </h3>
 
     <form th:action="@{/processStudentForm}" th:object="${student}" method="post">
 
@@ -35,7 +35,13 @@
         </div>
 
         <br><br>
+        Fav Operator System :
+        <input type="checkbox" th:field="*{Systems}"
+                th:each="temp : ${favSystems}"
+                th:text="${temp}"
+                th:value="${temp}"/>
 
+        <br><br>
 
         <input type="submit" value="submit" />
 

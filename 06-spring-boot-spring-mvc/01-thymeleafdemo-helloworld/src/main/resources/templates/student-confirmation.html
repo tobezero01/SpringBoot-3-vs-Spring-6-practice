@@ -17,6 +17,10 @@
 
     <br><br>
     Fav Language : <span th:text="${student.favLanguage}"/>
-
+    <br><br>
+    Fav Operator System :
+    <ul>
+        <li th:each="temp : ${student.Systems}" th:text="${temp}"></li>
+    </ul>
 </body>
 </html>
