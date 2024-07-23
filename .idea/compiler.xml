@@ -92,6 +92,7 @@
         <module name="cruddemo (24) (com.luv2code)" />
         <module name="aopdemo (3)" />
         <module name="aopdemo (20)" />
+        <module name="validationDemo" />
         <module name="thymeleafdemo (7)" />
         <module name="springcoredemo (3)" />
         <module name="cruddemo (7)" />
@@ -255,6 +256,7 @@
       <module name="thymeleafdemo (8)" target="17" />
       <module name="thymeleafdemo (9)" target="17" />
       <module name="validationdemo" target="17" />
+      <module name="validationDemo" target="1.5" />
       <module name="validationdemo (1)" target="17" />
       <module name="validationdemo (2)" target="17" />
       <module name="validationdemo (3)" target="17" />
