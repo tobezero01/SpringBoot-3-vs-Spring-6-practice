@@ -256,7 +256,7 @@
       <module name="thymeleafdemo (8)" target="17" />
       <module name="thymeleafdemo (9)" target="17" />
       <module name="validationdemo" target="17" />
-      <module name="validationDemo" target="1.5" />
+      <module name="validationDemo" target="19" />
       <module name="validationdemo (1)" target="17" />
       <module name="validationdemo (2)" target="17" />
       <module name="validationdemo (3)" target="17" />
@@ -393,6 +393,7 @@
       <module name="thymeleafdemo (7)" options="-parameters" />
       <module name="thymeleafdemo (8)" options="-parameters" />
       <module name="thymeleafdemo (9)" options="-parameters" />
+      <module name="validationDemo" options="-parameters" />
       <module name="validationdemo" options="-parameters" />
       <module name="validationdemo (1)" options="-parameters" />
       <module name="validationdemo (2)" options="-parameters" />
