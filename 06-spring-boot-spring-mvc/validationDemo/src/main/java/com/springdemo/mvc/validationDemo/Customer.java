@@ -1,9 +1,6 @@
 package com.springdemo.mvc.validationDemo;
 
-import jakarta.validation.constraints.Max;
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.*;
 
 public class Customer {
 
@@ -17,12 +14,17 @@ public class Customer {
     @Max(value = 10, message = " freePasses <= 10")
     private int freePasses;
 
+    @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "only 5 chars/digits")
+    private String postalCode;
+
     public Customer(){}
 
-    public Customer(String firstName, String lastName, int freePasses) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.freePasses = freePasses;
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 
     public int getFreePasses() {
@@ -52,10 +54,11 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer : " +
-                "firstName='" + firstName + '\'' + "\n" +
-                ", lastName='" + lastName + '\'' +"\n" +
-                ", freePasses=" + freePasses
-                ;
+        return "Customer{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", freePasses=" + freePasses +
+                ", postalCode='" + postalCode + '\'' +
+                '}';
     }
 }

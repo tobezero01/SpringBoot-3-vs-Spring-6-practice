@@ -11,24 +11,36 @@
 
   <i> Fill out the Form . Asterisk * is means required</i>
   <br><br>
+
   <form th:action="@{/processForm}" th:object="${customer}" method="post">
     First Name : <input type="text" th:field="*{firstName}" />
     <br><br>
+
     Last Name (*) : <input type="text" th:field="*{lastName}" />
     <span th:if="${#fields.hasErrors('lastName')}"
           th:errors="*{lastName}"
           class="error">
-
     </span>
-      <br><br>
+    <br><br>
+
     Free Passes : <input type="text" th:field="*{freePasses}" />
-      <span th:if="${#fields.hasErrors('freePasses')}"
+    <span th:if="${#fields.hasErrors('freePasses')}"
             th:errors="*{freePasses}"
             class="error">
-
     </span>
-      <br><br>
-    <input type="submit" value="submit" />
+
+    <br><br>
+
+    Postal Code : <input type="text" th:field="*{postalCode}" />
+    <span th:if="${#fields.hasErrors('postalCode')}"
+            th:errors="*{postalCode}"
+            class="error">
+    </span>
+
+    <br><br>
+
+
+    <input type="submit" value="Submit" />
   </form>
 </body>
 </html>
