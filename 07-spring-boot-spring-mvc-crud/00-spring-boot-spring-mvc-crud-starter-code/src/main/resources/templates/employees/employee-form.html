@@ -18,6 +18,8 @@
 
   <form action="#" th:object="${employee}" th:action="@{/api/employees/save}" method="post">
 
+    <input type="hidden" th:field="*{id}" />
+
     First Name <input type="text" th:field="*{firstName}" class="form-control mb-4 w-50 border mt-3" placeholder="first name"/>
     Last Name  <input type="text" th:field="*{lastName}" class="form-control mb-4 w-50 border mt-3" placeholder="last name"/>
     Email      <input type="text" th:field="*{email}" class="form-control mb-4 w-50 border mt-3" placeholder="email"/>
