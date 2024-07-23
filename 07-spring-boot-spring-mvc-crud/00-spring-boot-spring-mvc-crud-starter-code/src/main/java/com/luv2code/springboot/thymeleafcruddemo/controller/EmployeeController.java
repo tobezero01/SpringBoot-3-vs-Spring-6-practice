@@ -63,4 +63,13 @@ public class EmployeeController {
 
         return "redirect:/api/employees/list";
     }
+
+    @GetMapping("/detail")
+    public String detail(@RequestParam("employeeId") int id, Model model) {
+        Employee employee = employeeService.findById(id);
+
+        model.addAttribute("employee" , employee);
+
+        return "employees/employee-detail";
+    }
 }
