@@ -39,6 +39,16 @@
                class="btn btn-info btn-sm">
               Update
             </a>
+            <a th:href="@{/api/employees/confirmForDelete(employeeId=${temp.id})}"
+               class="btn btn-danger btn-sm"
+                onclick="if (!(confirm('Are you sure you want to delete ? '))) return false">
+              Delete
+            </a>
+
+<!--            <a th:href="@{/api/employees/detail(employeeId=${temp.id})}"-->
+<!--               class="btn btn-danger btn-sm">-->
+<!--              Detail-->
+<!--            </a>-->
           </td>
 
         </tr>

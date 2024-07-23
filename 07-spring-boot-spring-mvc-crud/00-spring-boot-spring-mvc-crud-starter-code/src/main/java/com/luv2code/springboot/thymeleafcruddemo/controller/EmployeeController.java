@@ -55,4 +55,12 @@ public class EmployeeController {
 
         return "employees/employee-form";
     }
+
+    @GetMapping("/confirmForDelete")
+    public String confirmForDelete(@RequestParam("employeeId") int id ){
+
+        employeeService.deleteById(id);
+
+        return "redirect:/api/employees/list";
+    }
 }
