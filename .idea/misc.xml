@@ -87,7 +87,6 @@
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/06-spring-boot-spring-mvc-security-logout/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/01-spring-boot-spring-mvc-security-default/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/pom.xml" />
-        <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/02-spring-boot-spring-mvc-security-in-memory-users/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/03-spring-boot-spring-mvc-security-custom-login-form-plain/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/pom.xml" />
