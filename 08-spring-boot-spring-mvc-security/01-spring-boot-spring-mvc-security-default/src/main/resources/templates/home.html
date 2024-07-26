@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 
 <head>
     <!-- Required meta tags -->
@@ -16,6 +16,15 @@
     <h2> Company Home Page - Yoohoo - Silly Goose - NO SOUP!!!</h2>
     <hr>
     Welcome to the DUCNHUAD company home page!
+    <hr>
+    <br><br>
+    <p>User : <span sec:authentication="principal.username">
+
+    </span>
+        <br><br>
+        Roles : <span sec:authentication="principal.authorities"></span>
+    </p>
+    <hr>
 
     <form action="#" th:action="@{logout}" method="post">
         <input type="submit" value="Logout">
