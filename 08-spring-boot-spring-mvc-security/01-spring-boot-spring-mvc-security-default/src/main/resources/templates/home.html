@@ -26,16 +26,21 @@
     </p>
     <hr>
 
-    <!-- add link /leaders-->
-    <p>
-        <a th:href="@{/leaders}">Leader Meeting</a>
-        Only manager peeps
-    </p>
+    <div sec:authorities="hasRole('MANAGER')">
+        <p>
+            <a th:href="@{/leaders}">Leader Meeting</a>
+            Only manager peeps
+        </p>
+    </div>
+
     <hr>
-    <p>
-        <a th:href="@{/systems}">System Meeting</a>
-        Only admin peeps
-    </p>
+    <div sec:authorities="hasRole('ADMIN')">
+        <p>
+            <a th:href="@{/systems}">System Meeting</a>
+            Only admin peeps
+        </p>
+    </div>
+
     <hr>
     <form action="#" th:action="@{logout}" method="post">
         <input type="submit" value="Logout">

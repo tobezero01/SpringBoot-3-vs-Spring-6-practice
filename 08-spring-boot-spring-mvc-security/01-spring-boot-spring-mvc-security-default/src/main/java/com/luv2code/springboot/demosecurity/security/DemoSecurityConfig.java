@@ -6,34 +6,19 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+import org.springframework.security.provisioning.JdbcUserDetailsManager;
+import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
+
+import javax.sql.DataSource;
 
 @Configuration
 public class DemoSecurityConfig {
 
     @Bean
-    public InMemoryUserDetailsManager userDetailsManager() {
-        UserDetails duc = User.builder()
-                .username("duc")
-                .password("{noop}ducnhu1234")
-                .roles("EMPLOYEE")
-                .build();
-
-        UserDetails kien = User.builder()
-                .username("kien")
-                .password("{noop}ducnhu1234")
-                .roles("EMPLOYEE", "MANAGER")
-                .build();
-
-        UserDetails dung = User.builder()
-                .username("dung")
-                .password("{noop}ducnhu1234")
-                .roles("EMPLOYEE", "MANAGER" , "ADMIN")
-                .build();
-
-        return new InMemoryUserDetailsManager(duc, kien,dung);
+    public UserDetailsManager userDetailsManager(DataSource dataSource) {
+        return new JdbcUserDetailsManager(dataSource);
     }
-
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
@@ -57,5 +42,7 @@ public class DemoSecurityConfig {
 
         return httpSecurity.build();
     }
+
+
 
 }
