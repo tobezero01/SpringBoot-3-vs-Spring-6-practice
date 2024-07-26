@@ -15,19 +15,19 @@ public class DemoSecurityConfig {
     public InMemoryUserDetailsManager userDetailsManager() {
         UserDetails duc = User.builder()
                 .username("duc")
-                .password("ducnhu1234")
+                .password("{noop}ducnhu1234")
                 .roles("EMPLOYEE")
                 .build();
 
         UserDetails kien = User.builder()
                 .username("kien")
-                .password("ducnhu1234")
+                .password("{noop}ducnhu1234")
                 .roles("EMPLOYEE", "MANAGER")
                 .build();
 
         UserDetails dung = User.builder()
                 .username("dung")
-                .password("ducnhu1234")
+                .password("{noop}ducnhu1234")
                 .roles("EMPLOYEE", "MANAGER" , "ADMIN")
                 .build();
 
@@ -42,8 +42,9 @@ public class DemoSecurityConfig {
                 config -> config.anyRequest().authenticated()
         ).formLogin(
                 form -> form.loginPage("/showMyLoginPage")
-                        .loginProcessingUrl("authenticateTheUser")
+                        .loginProcessingUrl("/authenticateTheUser")
                         .permitAll()
+        ).logout(logout -> logout.permitAll()
         );
 
         return httpSecurity.build();
