@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class CruddemoApplication {
@@ -28,10 +29,37 @@ public class CruddemoApplication {
 
 			//createInstructorWithCourse(appDAO);
 
-			findInstructorWithCourse(appDAO);
+			//findInstructorWithCourse(appDAO);
+			//findCoursesByInstructorId(appDAO);
+
+			//findInstructorByIdJoinFetch(appDAO);
+			updateInstructor(appDAO);
 		};
 	}
 
+	private void updateInstructor(AppDAO appDAO) {
+		int id = 3;
+
+		Instructor instructor = appDAO.findInstructorById(id);
+		instructor.setFirstName("NHU DINH ");
+		appDAO.updateInstructor(instructor);
+		System.out.println(instructor);
+	}
+	private void findInstructorByIdJoinFetch(AppDAO appDAO) {
+		int id = 3;
+
+		Instructor instructor = appDAO.findInstructorByIdJoinFetch(id);
+		System.out.println(instructor);
+		System.out.println(instructor.getCourses());
+
+	}
+	private void findCoursesByInstructorId(AppDAO appDAO) {
+		int id = 3;
+
+		List<Course> courses = appDAO.findCoursesByInstructorId(id);
+
+		System.out.println(courses);
+	}
 	private void findInstructorWithCourse(AppDAO appDAO) {
 		int id = 3;
 		Instructor instructor = appDAO.findInstructorById(id);
