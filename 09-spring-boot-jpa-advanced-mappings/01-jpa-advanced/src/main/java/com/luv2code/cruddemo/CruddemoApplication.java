@@ -20,7 +20,15 @@ public class CruddemoApplication {
 
 		return runner -> {
 			createInstructor(appDAO);
+			//findById(appDAO);
+			//deleteInstructorById(appDAO);
 		};
+	}
+
+	private void findDetailById(AppDAO appDAO) throws Exception{
+		int id = 3;
+		InstructorDetail instructorDetail = appDAO.findDetailById(id);
+		System.out.println(instructorDetail.toString());
 	}
 
 	private void findById(AppDAO appDAO) {
