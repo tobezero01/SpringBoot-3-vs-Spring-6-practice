@@ -23,19 +23,20 @@ public class CruddemoApplication {
 		};
 	}
 
+	private void findById(AppDAO appDAO) {
+		int id = 1;
+		Instructor instructor = appDAO.findInstructorById(id);
+
+		System.out.println(instructor.toString());
+	}
+
+	private void deleteInstructorById(AppDAO appDAO) {
+		int id = 1;
+		appDAO.deleteInstructorById(id);
+	}
+
 	private void createInstructor(AppDAO appDAO) {
 
-		/*
-		// create the instructor
-		Instructor tempInstructor =
-				new Instructor("Chad", "Darby", "darby@luv2code.com");
-
-		// create the instructor detail
-		InstructorDetail tempInstructorDetail =
-				new InstructorDetail(
-						"http://www.luv2code.com/youtube",
-						"Luv 2 code!!!");
-		*/
 
 		// create the instructor
 		Instructor tempInstructor =

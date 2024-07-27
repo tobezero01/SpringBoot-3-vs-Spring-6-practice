@@ -98,7 +98,9 @@
     <file url="file://$PROJECT_DIR$/08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-one-to-one-uni-create-instructor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-spring-boot-spring-mvc-security/bonus-code-spring-boot-spring-mvc-security-jpa-hibernate-bcrypt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-advanced/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-advanced/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/02-jpa-one-to-one-uni-find-instructor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/03-jpa-one-to-one-uni-delete-instructor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/04-jpa-one-to-one-bi-find-instructor-detail/src/main/java" charset="UTF-8" />

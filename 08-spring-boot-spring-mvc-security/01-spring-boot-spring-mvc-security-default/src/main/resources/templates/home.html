@@ -26,7 +26,7 @@
     </p>
     <hr>
 
-    <div sec:authorities="hasRole('MANAGER')">
+    <div sec:authorize="hasRole('MANAGER')">
         <p>
             <a th:href="@{/leaders}">Leader Meeting</a>
             Only manager peeps
@@ -34,7 +34,7 @@
     </div>
 
     <hr>
-    <div sec:authorities="hasRole('ADMIN')">
+    <div sec:authorize="hasRole('ADMIN')">
         <p>
             <a th:href="@{/systems}">System Meeting</a>
             Only admin peeps
