@@ -70,7 +70,6 @@ public class Student {
             inverseJoinColumns = @JoinColumn(name = "course_id"))
     private List<Course> courses;
 
-
     public List<Course> getCourses() {
         return courses;
     }
