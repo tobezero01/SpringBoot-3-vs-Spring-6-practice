@@ -146,5 +146,7 @@
     <file url="file://$PROJECT_DIR$/10-spring-boot-aop/21-spring-boot-aop-demo-around-advice-handle-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/10-spring-boot-aop/22-spring-boot-aop-demo-around-advice-rethrow-exception/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/10-spring-boot-aop/23-spring-boot-aop-spring-boot-mvc-crud-demo-employees/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/01-RestTest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test/01-RestTest/src/main/resources" charset="UTF-8" />
   </component>
 </project>

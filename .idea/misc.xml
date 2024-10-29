@@ -127,6 +127,7 @@
         <option value="$PROJECT_DIR$/06-spring-boot-spring-mvc/validationDemo/pom.xml" />
         <option value="$PROJECT_DIR$/08-spring-boot-spring-mvc-security/bonus-code-spring-boot-spring-mvc-security-jpa-hibernate-bcrypt/pom.xml" />
         <option value="$PROJECT_DIR$/09-spring-boot-jpa-advanced-mappings/01-jpa-advanced/pom.xml" />
+        <option value="$PROJECT_DIR$/Test/01-RestTest/pom.xml" />
       </list>
     </option>
   </component>
